@@ -71,7 +71,7 @@ function redirectToRoomName(name)
 function logout() {
 localStorage.removeItem("user_name");
 localStorage.removeItem("room_name");
-    window.location = "kwitter.html";
+    window.location = "index.html";
 }
 
 function updateLike(message_id)
